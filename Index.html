@@ -1,4 +1,17 @@
 <h1> Hello </h1>
 
-<body> This is the body </body>
-<button> I am a button</button>
+<body id="title"> This is the body </body>
+<br />
+<br /> 
+<button onclick="changeTitle()"> I went to the Zoo Yesterday and all I saw was a cow, a donkey, and a dog</button>
+<script>  
+    function changeTitle()
+  {
+      var title_element = document.getElementById("title")
+        title_element.innerText = 'It was a Shih Tzu '
+
+    }
+
+
+    </script>
+
